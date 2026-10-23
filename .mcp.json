@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "cc98-searchpro": {
+      "command": "node",
+      "args": [
+        "./runtime/server.mjs"
+      ],
+      "cwd": ".",
+      "env_vars": [
+        "CC98_SEARCHPRO_DATA_DIR",
+        "CC98_SEARCH_DATA_DIR"
+      ]
+    }
+  }
+}

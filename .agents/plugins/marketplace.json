@@ -1,0 +1,20 @@
+{
+  "name": "cc98-searchpro",
+  "interface": {
+    "displayName": "CC98-SearchPro"
+  },
+  "plugins": [
+    {
+      "name": "cc98-searchpro",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

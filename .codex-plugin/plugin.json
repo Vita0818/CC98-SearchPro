@@ -1,0 +1,36 @@
+{
+  "name": "cc98-searchpro",
+  "version": "0.1.0",
+  "description": "CC98-SearchPro：多路召回、匹配证据、首帖验证与楼层阅读。",
+  "author": {
+    "name": "Vita0818"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "CC98-SearchPro",
+    "shortDescription": "查找 CC98 讨论，核对正文并引用具体楼层。",
+    "longDescription": "独立的只读 CC98 搜索插件。支持中文查询扩展、去重重排、首帖正文验证、命中摘要、版面与日期筛选、搜索快照翻页和长帖续读。通过校园网或已有 VPN 直连使用。",
+    "developerName": "Vita0818",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "在 CC98 搜索相关讨论，并阅读原帖核对结论。",
+      "查找指定版面里的经验帖，附上匹配依据和原帖链接。"
+    ],
+    "brandColor": "#2355AA",
+    "websiteURL": "https://github.com/Vita0818/CC98-SearchPro",
+    "privacyPolicyURL": "https://github.com/Vita0818/CC98-SearchPro/blob/main/PRIVACY.md"
+  },
+  "keywords": [
+    "cc98",
+    "search",
+    "zju",
+    "mcp"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Vita0818/CC98-SearchPro",
+  "repository": "https://github.com/Vita0818/CC98-SearchPro"
+}
